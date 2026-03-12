@@ -1,0 +1,29 @@
+# Intelligent Traffic Violation Detection System
+# Core Dependencies
+
+# Computer Vision & Detection
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Deep Learning Backend
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Web Framework (API)
+flask>=3.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Analytics & Visualization
+matplotlib>=3.7.0
+scipy>=1.10.0
+Pillow>=10.0.0
+
+# API Support
+pydantic>=2.0.0
+python-multipart>=0.0.6
+httpx>=0.24.0
