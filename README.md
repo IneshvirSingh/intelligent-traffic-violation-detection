@@ -2,6 +2,18 @@
 
 A production-quality computer vision system that detects traffic violations from video feeds using **YOLOv8**, **ByteTrack** multi-object tracking, and a **FastAPI** REST backend with real-time analytics and heatmap generation.
 
+The system processes video feeds from traffic cameras, detects vehicles, tracks them across frames, and identifies violations such as red-light jumping and lane violations. Evidence images and analytics are generated for monitoring and reporting.
+
+## Key Features
+
+- Real-time vehicle detection using YOLOv8
+- Multi-object tracking for vehicle identification
+- Automated red-light violation detection
+- Lane violation detection
+- Violation evidence capture
+- Heatmap generation for traffic violation hotspots
+- REST API for accessing violation data
+
 ---
 
 ## Architecture
